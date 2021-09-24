@@ -17,9 +17,13 @@
            revision="eleven" />
 
   <remote  name="havoc-gitlab"
-           fetch="https://gitlab.com/Havoc-GApps"
+           fetch="ssh://git@gitlab.com/Havoc-GApps"
            revision="eleven" />
 
+  <remote  name="havoc-devices-gitlab"
+           fetch="ssh://git@gitlab.com/Havoc-Devices"
+           revision="eleven" />
+  
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
   <project path="bionic" name="android_bionic" remote="havoc" />
