@@ -17,13 +17,9 @@
            revision="eleven" />
 
   <remote  name="havoc-gitlab"
-           fetch="ssh://git@gitlab.com/Havoc-GApps"
+           fetch="https://gitlab.com/Havoc-GApps"
            revision="eleven" />
 
-  <remote  name="havoc-devices-gitlab"
-           fetch="ssh://git@gitlab.com/Havoc-Devices"
-           revision="eleven" />
-           
   <remote name="proton"
           fetch="https://github.com/kdrag0n"
           revision="master" />
